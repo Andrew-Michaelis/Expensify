@@ -14,6 +14,6 @@ const ExpenseListItem =({ id, description, amount, createdAt })=> (
             {moment(createdAt).format("MMMM Do, YYYY")}
         </p>
     </div>
-)
+);
 
 export default ExpenseListItem;
